@@ -1,1 +1,9 @@
-name, date, description
+Name:	James Tremper
+Date:	2015-05-08
+Desc:	Lab 5 Submission
+
+Status:
+	Did not put any serious effort into trying to implement this lab.
+
+Idea:
+	The idea for shadow-mapping is as a two-pass algorithm. The first path is rendered from the light's location, and records the surfaces that are in its view. The second pass is done from the camera's perspective, and it lights only the fragments that are seen by the light; everything else is put in shadow.
